@@ -1,0 +1,15 @@
+{
+  "npmClient": "npm",
+  "useWorkspaces": true,
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "bootstrap": {
+      "npmClientArgs": [
+        "--legacy-peer-deps"
+      ]
+    }
+  },
+  "version": "independent"
+}

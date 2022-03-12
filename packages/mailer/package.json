@@ -1,0 +1,36 @@
+{
+  "name": "@mate/mailer",
+  "version": "1.0.0",
+  "description": "The main mailer library of mate",
+  "keywords": [
+    "mailer",
+    "mate"
+  ],
+  "author": "ashishtz <ashishpatel6958@gmail.com>",
+  "homepage": "https://github.com/ashishtz/mate#readme",
+  "license": "MIT",
+  "main": "lib/mailer.js",
+  "typings": "lib/mailer.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ashishtz/mate.git",
+    "directory": "packages/mailer"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/ashishtz/mate/issues"
+  }
+}
